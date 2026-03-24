@@ -389,7 +389,7 @@ async def help_command(ctx):
 # =========================
 
 def main():
-    token = os.environ.get("DISCORD_TOKEN")
+    token = os.environ.get("MTQ4NTcxMjEwMzU3ODAxMzc0Ng.Ghc-Fu.4gNXO4ZRPkg_VmES_rxmECqiodtYVJ2xQTLbKI")
     if not token:
         raise ValueError("環境変数 DISCORD_TOKEN が設定されていません。")
 
